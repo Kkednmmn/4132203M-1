@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  email:
+  email: 
     image: djfarrelly/maildev
     ports:
-      - "8081:80"
+      - "8080:80"
       - "25:25"
-
+      - "1080:1080"
